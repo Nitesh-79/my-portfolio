@@ -1,9 +1,9 @@
 export const portfolioData = {
     personalInfo: {
         name: "NITESH PUROHIT",
-        phone: "+91 7906268887",
-        email: "niteshpurohit06@gmail.com",
-        linkedin: "https://www.linkedin.com/in/nitesh-purohit-2b5052229",
+        phone: import.meta.env.VITE_PHONE,
+        email: import.meta.env.VITE_EMAIL,
+        linkedin: import.meta.env.VITE_LINKEDIN,
         location: "Haldwani, Uttarakhand, 263139",
         role: "Full Stack Developer"
     },
